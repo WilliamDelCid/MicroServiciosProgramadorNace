@@ -30,4 +30,10 @@ public class CourseController {
         return ResponseEntity.ok(courseService.findById(id));
     }
 
+//    Feign
+    @GetMapping("/search-student/{idCourse}")
+    public ResponseEntity<?> findStudentByIdCourse(@PathVariable Long idCourse){
+        return ResponseEntity.ok(courseService.findStudentsByIdCourse(idCourse));
+    }
+
 }

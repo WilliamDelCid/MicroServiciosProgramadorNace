@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61ed2263-1617-430a-9726-2e93b2fd7fc5" name="Changes" comment="" />
+    <list default="true" id="61ed2263-1617-430a-9726-2e93b2fd7fc5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/microservice-course/src/main/java/com/microservice/course/client/StudentClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-course/src/main/java/com/microservice/course/dto/StudentDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-course/src/main/java/com/microservice/course/http/response/StudentByCourseResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-course/src/main/resources/import.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-student/src/main/resources/import.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-course/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-course/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-course/src/main/java/com/microservice/course/MicroserviceCourseApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-course/src/main/java/com/microservice/course/MicroserviceCourseApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-course/src/main/java/com/microservice/course/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-course/src/main/java/com/microservice/course/controller/CourseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-course/src/main/java/com/microservice/course/service/CourseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-course/src/main/java/com/microservice/course/service/CourseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-course/src/main/java/com/microservice/course/service/ICourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-course/src/main/java/com/microservice/course/service/ICourseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-student/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-student/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-student/src/main/java/com/microservice/student/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-student/src/main/java/com/microservice/student/controller/StudentController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +35,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -35,12 +56,14 @@
     "Application.MicroserviceEurekaApplication.executor": "Run",
     "Application.MicroserviceStudentApplication.executor": "Run",
     "Maven.SpringMicroservices [clean].executor": "Run",
+    "Maven.microservice-eureka [clean].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
@@ -86,9 +109,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MicroserviceStudentApplication" />
         <item itemvalue="Application.MicroserviceCourseApplication" />
         <item itemvalue="Application.MicroserviceEurekaApplication" />
-        <item itemvalue="Application.MicroserviceStudentApplication" />
       </list>
     </recent_temporary>
   </component>
